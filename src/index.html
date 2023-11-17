@@ -6,16 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="./fonts/stylesheet.css">
-  <link rel="stylesheet" href="./sass/index.css">
+  <link rel="stylesheet" href="./sass/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body class="page__body">
   <header class="main-header">
-    <a class="main-header__logo">
-      <img src="img/logotype-phone.svg" width="226" height="30" alt="Барбершоп «Бородинский».">
-    </a>
     <nav class="main-nav">
-      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
       <div class="main-nav__wrapper">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <ul class="main-nav__list site-list">
           <li class="site-list__item site-list__item--active">
             <a>
@@ -43,20 +43,17 @@
             </a>
           </li>
         </ul>
-        <div class="main-nav__list user-list">
-          <a class="user-list__login" href="login.html">
-            <svg class="user-list__login-icon" width="16" height="16">
-              <use xlink:href="img/sprite.svg#icon-login"></use>
-            </svg>
-            Войти
-          </a>
-        </div>
+        <div class="main-nav__login">
+        <a class="user-list__login" href="login.html">
+          Войти
+        </a></div>
       </div>
     </nav>
   </header>
   <main class="main-container">
 
     <h1 class="visually-hidden">Барбершоп «Бородинский» — истинно мужская классика</h1>
+    <img src="./img/logo (1).png" alt="">
 
     <section class="stats">
       <div class="stats__wrapper">
